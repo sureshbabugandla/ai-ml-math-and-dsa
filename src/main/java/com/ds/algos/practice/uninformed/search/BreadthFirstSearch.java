@@ -1,4 +1,4 @@
-package com.ds.algos.practice.uninformed.search.bfs;
+package com.ds.algos.practice.uninformed.search;
 
 import java.util.*;
 

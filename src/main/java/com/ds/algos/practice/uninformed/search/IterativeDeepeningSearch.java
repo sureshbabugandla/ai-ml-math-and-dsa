@@ -22,6 +22,7 @@ public class IterativeDeepeningSearch {
         final boolean found = iterativeDeepeningSearch(network, start, target, 5);
 
         System.out.println(found ? "Target found!" : "Target not found.");
+
     }
     private static boolean iterativeDeepeningSearch(
             Map<String, List<String>> graph,

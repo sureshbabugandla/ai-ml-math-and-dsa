@@ -31,6 +31,7 @@ public class IterativeDeepeningSearch {
             int maxDepth
     ) {
         for (int depth = 0; depth <= maxDepth; depth++) {
+
             System.out.println("Searching with depth limit: " + depth);
             Set<String> visited = new HashSet<>();
             if (depthLimitedDFS(graph, start, target, depth, visited)) {
